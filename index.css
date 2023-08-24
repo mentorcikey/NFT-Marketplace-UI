@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,500;1,200;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap');
 
 /* Reset CSS */
 
@@ -230,6 +231,74 @@
     background-color: #858584;
 }
 
-.nft_tab .nft_tab-2 {}
+/* CSS card section */
 
-.nft_tab .nft_tab-3 {}
+.nft_cardSection {
+    display: grid;
+    padding: 10px 9%;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.nft_cardSection .nft_cardSection-item {
+    background-color: #858584;
+    border-radius: 27px;
+}
+
+.nft_cardSection .nft_cardSection-item .nft_cardSection-itemo-img {
+    width: 100%;
+}
+
+.nft_cardSection .nft_cardSection-item .nft_cardSection-item-info {
+    padding: 20px 30px 25px;
+}
+
+.nft_cardSection .nft_cardSection-item .nft_cardSection-item-info h5 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.nft_cardSection .nft_cardSection-item .nft_cardSection-item-info div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.nft_cardSection .nft_cardSection-item .nft_cardSection-item-info div:nth-child(2) img {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    border-radius: 50%;
+}
+
+.nft_cardSection .nft_cardSection-item .nft_cardSection-item-info div:nth-child(2) p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Space Mono', monospace;
+}
+
+.nft_cardSection .nft_cardSection-item .nft_cardSection-item-info div:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Space Mono', monospace;
+    color: #fff;
+}
+
+.nft_cardSection .nft_cardSection-item .nft_cardSection-item-info div:nth-child(3) span p:nth-child(1) {
+    margin-bottom: 8px;
+    color: #414140;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.nft_cardSection .nft_cardSection-item .nft_cardSection-item-info div:nth-child(3) span p:nth-child(2) {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}

@@ -53,6 +53,13 @@
     }
 
 
+    /* CSS card section  */
+
+    .nft_cardSection {
+        grid-template-columns: 48% 48%;
+    }
+
+
 }
 
 @media screen and (max-width: 418px) {
@@ -115,5 +122,11 @@
 
     .nft_tab h5 {
         font-size: 4.5vw;
+    }
+
+    /* CSS card section  */
+
+    .nft_cardSection {
+        grid-template-columns: 100%;
     }
 }
