@@ -1,418 +1,479 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./responsive.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512_z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no_referrer"
-    />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="nft_container">
 
-      <!--Header-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="./responsive.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512_z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no_referrer" />
+  <title>Document</title>
+</head>
 
-      <div class="nft_header">
-        <div class="nft_header-left">
-          <i class="fa-solid fa-store"></i>
-          <h3>NFT Marketplace</h3>
+<body>
+  <div class="nft_container">
+
+    <!--Header-->
+
+    <div class="nft_header">
+      <div class="nft_header-left">
+        <i class="fa-solid fa-store"></i>
+        <h3>NFT Marketplace</h3>
+      </div>
+
+      <ul class="nft_header-right">
+        <li class="nft_header-right-item">Marketplace</li>
+        <li class="nft_header-right-item">Rankings</li>
+        <li class="nft_header-right-item">Connect a wallet</li>
+        <li class="nft_header-right-item">
+          <div>
+            <i class="fa-regular fa-user"></i>
+            <p>Sign Up</p>
+          </div>
+        </li>
+      </ul>
+
+      <i class="icon-bar-responsive fa-solid fa-bars-staggered"></i>
+    </div>
+
+    <!-- profileImage -->
+
+    <div class="nft_profileImage">
+      <img src="./assets/imgs/Avatar.png" alt="" />
+    </div>
+
+    <!-- userInfo -->
+
+    <div class="nft_userInfo">
+
+      <div class="nft_userInfo-top">
+        <h2>Animakid</h2>
+
+        <div class="nft_userInfo-top-button">
+          <button>
+            <i class="fa-regular fa-copy"></i>
+            <p>0xc0E3...B79C</p>
+          </button>
+          <button>
+            <i class="fa-solid fa-plus"></i>
+            <p>Follow</p>
+          </button>
         </div>
-
-        <ul class="nft_header-right">
-          <li class="nft_header-right-item">Marketplace</li>
-          <li class="nft_header-right-item">Rankings</li>
-          <li class="nft_header-right-item">Connect a wallet</li>
-          <li class="nft_header-right-item">
-            <div>
-              <i class="fa-regular fa-user"></i>
-              <p>Sign Up</p>
-            </div>
-          </li>
-        </ul>
-
-        <i class="icon-bar-responsive fa-solid fa-bars-staggered"></i>
       </div>
 
-      <!-- profileImage -->
-
-      <div class="nft_profileImage">
-        <img src="./assets/imgs/Avatar.png" alt="" />
-      </div>
-
-      <!-- userInfo -->
-
-      <div class="nft_userInfo">
-
-        <div class="nft_userInfo-top">
-          <h2>Animakid</h2>
-
-          <div class="nft_userInfo-top-button">
-            <button>
-              <i class="fa-regular fa-copy"></i>
-              <p>0xc0E3...B79C</p>
-            </button>
-            <button>
-              <i class="fa-solid fa-plus"></i>
-              <p>Follow</p>
-            </button>
+      <div class="nft_userInfo-bottom">
+        <div class="nft_userInfo-bottom-param">
+          <div>
+            <p class="param">250k+</p>
+            <p class="text">Volumn</p>
+          </div>
+          <div>
+            <p class="param">50k+</p>
+            <p class="text">NFTs Sold</p>
+          </div>
+          <div>
+            <p class="param">3000k+</p>
+            <p class="text">Followers</p>
           </div>
         </div>
 
-        <div class="nft_userInfo-bottom">
-          <div class="nft_userInfo-bottom-param">
-            <div>
-              <p class="param">250k+</p>
-              <p class="text">Volumn</p>
-            </div>
-            <div>
-              <p class="param">50k+</p>
-              <p class="text">NFTs Sold</p>
-            </div>
-            <div>
-              <p class="param">3000k+</p>
-              <p class="text">Followers</p>
-            </div>
-          </div>
-
-          <div class="nft_userInfo-bottom-bio">
-            <h5>Bio</h5>
-            <p>The internet's friendliest designer kid.</p>
-          </div>
-
-          <div class="nft_userInfo-bottom-links">
-            <h5>Links</h5>
-            <ul>
-              <li>
-                <a href=""><i class="fa-solid fa-globe"></i></a>
-              </li>
-              <li>
-                <a href="https://discord.com/">
-                  <i class="fa-brands fa-discord"></i>
-                </a>
-              </li>
-              <li>
-                <a href=""><i class="fa-brands fa-youtube"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-              </i></li>
-            </ul>
-          </div>
+        <div class="nft_userInfo-bottom-bio">
+          <h5>Bio</h5>
+          <p>The internet's friendliest designer kid.</p>
         </div>
 
+        <div class="nft_userInfo-bottom-links">
+          <h5>Links</h5>
+          <ul>
+            <li>
+              <a href=""><i class="fa-solid fa-globe"></i></a>
+            </li>
+            <li>
+              <a href="https://discord.com/">
+                <i class="fa-brands fa-discord"></i>
+              </a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </i>
+            </li>
+          </ul>
+        </div>
       </div>
-
-         <!-- tab -->
-
-      <div class="nft_tab">
-          
-        <div class="nft_tab-1">
-            <h5>Created</h5>
-            <p>320</p>
-        </div>
-
-        <div class="nft_tab-2">
-          <h5>Owned</h5>
-          <p>67</p>
-        </div>
-
-        <div class="nft_tab-3">
-          <h5>Collection</h5>
-          <p>4</p>
-        </div>
-
-      </div>
-
-      <!-- cardSection -->
-
-      <div class="nft_cardSection">
-
-          <div class="nft_cardSection-item"> 
-
-              <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
-
-              <div class="nft_cardSection-item-info" >
-                <h5>Distant Galaxy</h5>
-
-                <div class="nft_cardSection-item-info-child1">
-                  <img src="./assets/imgs/Avatar.png" alt="Avatar">
-                  <p>Animakid</p>
-                </div>
-                 
-                <div>
-  
-                   <span>
-                    <p>Price</p>
-                    <p>1.63 ETH</p>
-                   </span>
-  
-                   <span>
-                    <p>Highest Bid</p>
-                    <p>0.33 ETH</p>
-                   </span>
-  
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="nft_cardSection-item"> 
-
-              <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
-
-              <div class="nft_cardSection-item-info" >
-                <h5>Distant Galaxy</h5>
-
-                <div class="nft_cardSection-item-info-child1">
-                  <img src="./assets/imgs/Avatar.png" alt="Avatar">
-                  <p>Animakid</p>
-                </div>
-                 
-                <div>
-  
-                   <span>
-                    <p>Price</p>
-                    <p>1.63 ETH</p>
-                   </span>
-  
-                   <span>
-                    <p>Highest Bid</p>
-                    <p>0.33 ETH</p>
-                   </span>
-  
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="nft_cardSection-item"> 
-
-              <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
-
-              <div class="nft_cardSection-item-info" >
-                <h5>Distant Galaxy</h5>
-
-                <div class="nft_cardSection-item-info-child1">
-                  <img src="./assets/imgs/Avatar.png" alt="Avatar">
-                  <p>Animakid</p>
-                </div>
-                 
-                <div>
-  
-                   <span>
-                    <p>Price</p>
-                    <p>1.63 ETH</p>
-                   </span>
-  
-                   <span>
-                    <p>Highest Bid</p>
-                    <p>0.33 ETH</p>
-                   </span>
-  
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="nft_cardSection-item"> 
-
-              <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
-
-              <div class="nft_cardSection-item-info" >
-                <h5>Distant Galaxy</h5>
-
-                <div class="nft_cardSection-item-info-child1">
-                  <img src="./assets/imgs/Avatar.png" alt="Avatar">
-                  <p>Animakid</p>
-                </div>
-                 
-                <div>
-  
-                   <span>
-                    <p>Price</p>
-                    <p>1.63 ETH</p>
-                   </span>
-  
-                   <span>
-                    <p>Highest Bid</p>
-                    <p>0.33 ETH</p>
-                   </span>
-  
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="nft_cardSection-item"> 
-
-              <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
-
-              <div class="nft_cardSection-item-info" >
-                <h5>Distant Galaxy</h5>
-
-                <div class="nft_cardSection-item-info-child1">
-                  <img src="./assets/imgs/Avatar.png" alt="Avatar">
-                  <p>Animakid</p>
-                </div>
-                 
-                <div>
-  
-                   <span>
-                    <p>Price</p>
-                    <p>1.63 ETH</p>
-                   </span>
-  
-                   <span>
-                    <p>Highest Bid</p>
-                    <p>0.33 ETH</p>
-                   </span>
-  
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="nft_cardSection-item"> 
-
-              <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
-
-              <div class="nft_cardSection-item-info" >
-                <h5>Distant Galaxy</h5>
-
-                <div class="nft_cardSection-item-info-child1">
-                  <img src="./assets/imgs/Avatar.png" alt="Avatar">
-                  <p>Animakid</p>
-                </div>
-                 
-                <div>
-  
-                   <span>
-                    <p>Price</p>
-                    <p>1.63 ETH</p>
-                   </span>
-  
-                   <span>
-                    <p>Highest Bid</p>
-                    <p>0.33 ETH</p>
-                   </span>
-  
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="nft_cardSection-item"> 
-
-              <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
-
-              <div class="nft_cardSection-item-info" >
-                <h5>Distant Galaxy</h5>
-
-                <div class="nft_cardSection-item-info-child1">
-                  <img src="./assets/imgs/Avatar.png" alt="Avatar">
-                  <p>Animakid</p>
-                </div>
-                 
-                <div>
-  
-                   <span>
-                    <p>Price</p>
-                    <p>1.63 ETH</p>
-                   </span>
-  
-                   <span>
-                    <p>Highest Bid</p>
-                    <p>0.33 ETH</p>
-                   </span>
-  
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="nft_cardSection-item"> 
-
-              <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
-
-              <div class="nft_cardSection-item-info" >
-                <h5>Distant Galaxy</h5>
-
-                <div class="nft_cardSection-item-info-child1">
-                  <img src="./assets/imgs/Avatar.png" alt="Avatar">
-                  <p>Animakid</p>
-                </div>
-                 
-                <div>
-  
-                   <span>
-                    <p>Price</p>
-                    <p>1.63 ETH</p>
-                   </span>
-  
-                   <span>
-                    <p>Highest Bid</p>
-                    <p>0.33 ETH</p>
-                   </span>
-  
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="nft_cardSection-item"> 
-
-              <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
-
-              <div class="nft_cardSection-item-info" >
-                <h5>Distant Galaxy</h5>
-
-                <div class="nft_cardSection-item-info-child1">
-                  <img src="./assets/imgs/Avatar.png" alt="Avatar">
-                  <p>Animakid</p>
-                </div>
-                 
-                <div>
-  
-                   <span>
-                    <p>Price</p>
-                    <p>1.63 ETH</p>
-                   </span>
-  
-                   <span>
-                    <p>Highest Bid</p>
-                    <p>0.33 ETH</p>
-                   </span>
-  
-                </div>
-
-              </div>
-
-            </div>
-
-
-      </div>
-
-      <div class="footer"></div>
 
     </div>
-  </body>
+
+    <!-- tab -->
+
+    <div class="nft_tab">
+
+      <div class="nft_tab-1">
+        <h5>Created</h5>
+        <p>320</p>
+      </div>
+
+      <div class="nft_tab-2">
+        <h5>Owned</h5>
+        <p>67</p>
+      </div>
+
+      <div class="nft_tab-3">
+        <h5>Collection</h5>
+        <p>4</p>
+      </div>
+
+    </div>
+
+    <!-- cardSection -->
+
+    <div class="nft_cardSection">
+
+      <div class="nft_cardSection-item">
+
+        <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
+
+        <div class="nft_cardSection-item-info">
+          <h5>Distant Galaxy</h5>
+
+          <div class="nft_cardSection-item-info-child1">
+            <img src="./assets/imgs/Avatar.png" alt="Avatar">
+            <p>Animakid</p>
+          </div>
+
+          <div>
+
+            <span>
+              <p>Price</p>
+              <p>1.63 ETH</p>
+            </span>
+
+            <span>
+              <p>Highest Bid</p>
+              <p>0.33 ETH</p>
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="nft_cardSection-item">
+
+        <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
+
+        <div class="nft_cardSection-item-info">
+          <h5>Distant Galaxy</h5>
+
+          <div class="nft_cardSection-item-info-child1">
+            <img src="./assets/imgs/Avatar.png" alt="Avatar">
+            <p>Animakid</p>
+          </div>
+
+          <div>
+
+            <span>
+              <p>Price</p>
+              <p>1.63 ETH</p>
+            </span>
+
+            <span>
+              <p>Highest Bid</p>
+              <p>0.33 ETH</p>
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="nft_cardSection-item">
+
+        <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
+
+        <div class="nft_cardSection-item-info">
+          <h5>Distant Galaxy</h5>
+
+          <div class="nft_cardSection-item-info-child1">
+            <img src="./assets/imgs/Avatar.png" alt="Avatar">
+            <p>Animakid</p>
+          </div>
+
+          <div>
+
+            <span>
+              <p>Price</p>
+              <p>1.63 ETH</p>
+            </span>
+
+            <span>
+              <p>Highest Bid</p>
+              <p>0.33 ETH</p>
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="nft_cardSection-item">
+
+        <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
+
+        <div class="nft_cardSection-item-info">
+          <h5>Distant Galaxy</h5>
+
+          <div class="nft_cardSection-item-info-child1">
+            <img src="./assets/imgs/Avatar.png" alt="Avatar">
+            <p>Animakid</p>
+          </div>
+
+          <div>
+
+            <span>
+              <p>Price</p>
+              <p>1.63 ETH</p>
+            </span>
+
+            <span>
+              <p>Highest Bid</p>
+              <p>0.33 ETH</p>
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="nft_cardSection-item">
+
+        <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
+
+        <div class="nft_cardSection-item-info">
+          <h5>Distant Galaxy</h5>
+
+          <div class="nft_cardSection-item-info-child1">
+            <img src="./assets/imgs/Avatar.png" alt="Avatar">
+            <p>Animakid</p>
+          </div>
+
+          <div>
+
+            <span>
+              <p>Price</p>
+              <p>1.63 ETH</p>
+            </span>
+
+            <span>
+              <p>Highest Bid</p>
+              <p>0.33 ETH</p>
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="nft_cardSection-item">
+
+        <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
+
+        <div class="nft_cardSection-item-info">
+          <h5>Distant Galaxy</h5>
+
+          <div class="nft_cardSection-item-info-child1">
+            <img src="./assets/imgs/Avatar.png" alt="Avatar">
+            <p>Animakid</p>
+          </div>
+
+          <div>
+
+            <span>
+              <p>Price</p>
+              <p>1.63 ETH</p>
+            </span>
+
+            <span>
+              <p>Highest Bid</p>
+              <p>0.33 ETH</p>
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="nft_cardSection-item">
+
+        <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
+
+        <div class="nft_cardSection-item-info">
+          <h5>Distant Galaxy</h5>
+
+          <div class="nft_cardSection-item-info-child1">
+            <img src="./assets/imgs/Avatar.png" alt="Avatar">
+            <p>Animakid</p>
+          </div>
+
+          <div>
+
+            <span>
+              <p>Price</p>
+              <p>1.63 ETH</p>
+            </span>
+
+            <span>
+              <p>Highest Bid</p>
+              <p>0.33 ETH</p>
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="nft_cardSection-item">
+
+        <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
+
+        <div class="nft_cardSection-item-info">
+          <h5>Distant Galaxy</h5>
+
+          <div class="nft_cardSection-item-info-child1">
+            <img src="./assets/imgs/Avatar.png" alt="Avatar">
+            <p>Animakid</p>
+          </div>
+
+          <div>
+
+            <span>
+              <p>Price</p>
+              <p>1.63 ETH</p>
+            </span>
+
+            <span>
+              <p>Highest Bid</p>
+              <p>0.33 ETH</p>
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="nft_cardSection-item">
+
+        <img class="nft_cardSection-itemo-img" src="./assets/imgs/Image Placeholder 2.png" alt="Image Placeholder">
+
+        <div class="nft_cardSection-item-info">
+          <h5>Distant Galaxy</h5>
+
+          <div class="nft_cardSection-item-info-child1">
+            <img src="./assets/imgs/Avatar.png" alt="Avatar">
+            <p>Animakid</p>
+          </div>
+
+          <div>
+
+            <span>
+              <p>Price</p>
+              <p>1.63 ETH</p>
+            </span>
+
+            <span>
+              <p>Highest Bid</p>
+              <p>0.33 ETH</p>
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <!-- footer -->
+
+    <div class="nft_footer">
+
+      <div class="nft_footer-info">
+
+        <div class="nft_footer-info-item1">
+
+          <div>
+            <i class="fa-solid fa-store"></i>
+            <h3>NFT Marketplace</h3>
+          </div>
+          
+          <p>NFT marketplace UI created with Anima for Figma.</p>
+
+          <p>Join our community</p>
+
+          <ul>
+            <li>
+              <a href="https://discord.com/">
+                <i class="fa-brands fa-discord"></i>
+              </a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </i>
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="nft_footer-info-item2">
+          <h3>Explore</h3>
+          <p>Marketplace</p>
+          <p>Rankings</p>
+          <p>Connect a wallet</p>
+        </div>
+
+        <div class="nft_footer-info-item3">
+          <h3>Join our weekly digest</h3>
+          <p>Get exclusive promotions & updates straight to your inbox.</p>
+          <div>
+            <input type="text" placeholder="Enter your email here">
+            <button>
+              <i class="fa-regular fa-envelope"></i>
+              Subscribe
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+
+      <p class = "nft_footer-copyright">Ⓒ NFT Market. Use this template freely.</p>
+
+    </div>
+
+  </div>
+</body>
+
 </html>

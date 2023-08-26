@@ -59,6 +59,32 @@
         grid-template-columns: 48% 48%;
     }
 
+    /* CSS footer   */
+
+    .nft_footer .nft_footer-info {
+        flex-direction: column;
+    }
+
+    .nft_footer .nft_footer-info {
+        padding: 0 0 30px;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item1,
+    .nft_footer .nft_footer-info .nft_footer-info-item2 {
+        margin-bottom: 30px;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item3 {
+        padding-left: 0px;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item1 p {
+        width: 100%;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item3 p {
+        width: 100%;
+    }
 
 }
 
@@ -128,5 +154,40 @@
 
     .nft_cardSection {
         grid-template-columns: 100%;
+    }
+
+    /* CSS footer   */
+
+    .nft_footer {
+        padding: 40px 8%;
+    }
+
+    .nft_footer .nft_footer-info {
+        padding: 0 0 30px;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item3 div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item3 div input {
+        width: 100%;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item3 div button {
+        margin-left: 0px;
+        margin-top: 16px;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item3 div button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item3 div button i {
+        display: block;
+        margin-right: 12px;
     }
 }

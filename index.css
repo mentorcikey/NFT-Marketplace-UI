@@ -235,14 +235,14 @@
 
 .nft_cardSection {
     display: grid;
-    padding: 10px 9%;
+    padding: 10px 9% 80px;
     grid-template-columns: 30% 30% 30%;
     column-gap: 30px;
     row-gap: 30px;
 }
 
 .nft_cardSection .nft_cardSection-item {
-    background-color: #858584;
+    background-color: #0d0d0c;
     border-radius: 27px;
 }
 
@@ -259,6 +259,7 @@
     font-style: normal;
     font-weight: 600;
     margin-bottom: 5px;
+    color: #fff;
 }
 
 .nft_cardSection .nft_cardSection-item .nft_cardSection-item-info div:nth-child(2) {
@@ -301,4 +302,146 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+}
+
+/* CSS footer */
+
+.nft_footer {
+    padding: 40px 9%;
+    border-top: 1px solid #ccc;
+}
+
+.nft_footer .nft_footer-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 31px 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item1 {
+    flex: 2;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item1 div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 33.6px;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item1 div i {
+    color: #A259FF;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item1 div h3 {
+    margin-left: 12px;
+    color: #fff;
+    font-family: Space Mono;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item1 p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    color: #CCC;
+    width: 65%;
+    margin-bottom: 20px;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item1 ul {
+    display: flex;
+    list-style: none;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item1 ul li {
+    margin-right: 10px;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item1 ul li a {
+    color: #ccc;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item2 {
+    flex: 1;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item2 h3 {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 33.6px;
+    line-height: 22px;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item2 p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    color: #ccc;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item2 p:nth-child(3) {
+    margin: 20px 0;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item3 {
+    flex: 3;
+    padding-left: 65px;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item3 h3 {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 33.6px;
+    line-height: 22px;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item3 p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    color: #ccc;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item3 div input {
+    padding: 16px 20px;
+    border-radius: 20px;
+    border: none;
+    width: 60%;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item3 div input:focus {
+    outline: none;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item3 div button {
+    padding: 16px 50px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFF;
+    background-color: #A259FF;
+    border: none;
+    margin-left: -35px;
+}
+
+.nft_footer .nft_footer-info .nft_footer-info-item3 div button i {
+    display: none;
+}
+
+.nft_footer .nft_footer-copyright {
+    color: #CCC;
+    /* Caption - Work Sans */
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
 }
